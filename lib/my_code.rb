@@ -37,3 +37,15 @@ def map_to_double(array)
   
   double_array
 end
+
+def map_to_square(array)
+  i = 0 
+  square_array = []
+  
+  while i < array.length do 
+    square_array << array[i] * array[i]
+    i += 1 
+  end
+  
+  square_array
+end
