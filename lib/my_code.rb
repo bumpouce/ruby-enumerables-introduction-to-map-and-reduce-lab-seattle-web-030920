@@ -70,3 +70,16 @@ def reduce_to_total(array, *start)
 
   total
 end
+
+
+def reduce_to_all_true (array)
+  i = 0 
+  all_true = 0 
+  
+  while i < array.length do
+    
+    i += 1 
+  end
+  
+  all_true
+end
