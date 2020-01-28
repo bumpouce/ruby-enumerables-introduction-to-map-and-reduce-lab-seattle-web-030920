@@ -34,4 +34,6 @@ def map_to_double(array)
     double_array << array[i] * 2
     i += 1 
   end
+  
+  double_array
 end
