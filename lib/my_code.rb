@@ -24,3 +24,14 @@ def map_to_no_change (array)
   
   same_array
 end
+
+
+def map_to_double(array)
+  i = 0 
+  double_array = []
+  
+  while i < array.length do 
+    double_array << array[i] * 2
+    i += 1 
+  end
+end
