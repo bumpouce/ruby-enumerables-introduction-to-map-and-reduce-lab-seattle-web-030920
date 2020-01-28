@@ -80,7 +80,7 @@ def reduce_to_all_true (array)
   
   while i < array.length do
     if array[i]
-      all_true += array[i]
+      all_true += 1
     end
     i += 1 
   end
