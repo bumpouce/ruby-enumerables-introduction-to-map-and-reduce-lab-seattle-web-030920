@@ -61,5 +61,6 @@ def reduce_to_total(array, *start)
   end
   
   total += start
+  
   total
 end
