@@ -75,6 +75,8 @@ end
 def reduce_to_all_true (array)
   i = 0 
   all_true = 0 
+
+  pp "Initial data = #{array}"
   
   while i < array.length do
     if array[i]
