@@ -53,7 +53,11 @@ end
 
 def reduce_to_total(array, *start)
   i = 0 
-  total = 0 
+  if !start
+    total = 0 
+  else 
+    total = start 
+  end
   
   pp "Passing in start value: #{start}"
   pp "Passing in array: #{array}"
