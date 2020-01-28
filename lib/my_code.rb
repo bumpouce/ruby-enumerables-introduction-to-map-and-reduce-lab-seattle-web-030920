@@ -55,12 +55,12 @@ def reduce_to_total(array, *start)
   i = 0 
   total = 0 
   
+  pp "Passing in start value: #{start}"
+  
   while i < array.length do 
     total += array[i]
     i += 1 
   end
-  
-  total += start
   
   total
 end
