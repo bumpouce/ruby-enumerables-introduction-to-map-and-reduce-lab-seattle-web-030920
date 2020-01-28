@@ -74,13 +74,13 @@ end
 
 def reduce_to_all_true (array)
   i = 0 
-  all_true = 0 
+  all_true = true 
 
   while i < array.length do
     if array[i]
-      all_true += 1
+      all_true = true
     else 
-      all_true = nil
+      all_true = false
     end
     i += 1 
   end
