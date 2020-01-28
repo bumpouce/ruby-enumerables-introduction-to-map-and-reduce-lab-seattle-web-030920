@@ -82,6 +82,7 @@ def reduce_to_all_true (array)
     if array[i]
       all_true += 1
     else 
+      all_true = nil
     end
     i += 1 
   end
