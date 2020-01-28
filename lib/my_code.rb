@@ -1,5 +1,5 @@
 
-def map_to_negative (array)
+def map_to_negativize (array)
   i = 0 
 
   while i < array.length do
