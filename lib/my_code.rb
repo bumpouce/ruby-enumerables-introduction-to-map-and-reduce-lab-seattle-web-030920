@@ -91,7 +91,7 @@ end
 
 def reduce_to_any_true  (array)
   i = 0 
-  any_true = nil 
+  any_true = false
 
   while i < array.length do
     if array[i]
